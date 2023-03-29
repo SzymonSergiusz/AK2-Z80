@@ -1,0 +1,17 @@
+Dokumentacja
+https://zany80.github.io/documentation/Z80/UserManual.html#[18,"XYZ",72,292,null]
+https://www.zilog.com/index.php?option=com_doc&Itemid=99
+http://www.zilog.com/docs/z80/um0081.pdf - cpu peripherals user manual
+
+Bardziej szczegółówe opisy + materiały
+http://www.z80.info/index.htm
+
+George Self (ten od ramu ale ma też inne)
+https://www.youtube.com/watch?v=TgLTZGflsG8
+
+ALU Tutorial (Ryan Meuth)
+https://www.youtube.com/watch?v=dYZ-Hwbcnq4
+
+Przykładowy 16-bit CPU w logisimie
+https://www.fpga4student.com/2016/11/16-bit-processor-cpu-using-logisim-tool.html
+
