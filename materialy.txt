@@ -15,3 +15,5 @@ https://www.youtube.com/watch?v=dYZ-Hwbcnq4
 Przykładowy 16-bit CPU w logisimie
 https://www.fpga4student.com/2016/11/16-bit-processor-cpu-using-logisim-tool.html
 
+Symulator assemblera
+https://clrhome.org/asm/
