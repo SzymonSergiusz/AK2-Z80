@@ -18,7 +18,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
-  <main name="IDynamicMemories_F23"/>
+  <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -1230,6 +1230,14 @@
       <a name="facing" val="west"/>
       <a name="incoming" val="8"/>
     </comp>
+    <comp lib="0" loc="(490,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="counter_address"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="16"/>
+    </comp>
     <comp lib="0" loc="(530,1640)" name="Splitter">
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
@@ -1331,6 +1339,14 @@
     <comp lib="0" loc="(770,2450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="flag_z_out"/>
+    </comp>
+    <comp lib="0" loc="(780,720)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="instruction"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="24"/>
     </comp>
     <comp lib="0" loc="(80,490)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1637,7 +1653,8 @@
       <a name="addrWidth" val="16"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 16 24
-0 7
+0 628 50 80 b8 210032 72 5e
+2f ca0000 37 3f 86 c30000
 </a>
       <a name="dataWidth" val="24"/>
     </comp>
@@ -2276,7 +2293,7 @@
     <wire from="(450,2000)" to="(460,2000)"/>
     <wire from="(450,2030)" to="(470,2030)"/>
     <wire from="(450,510)" to="(450,600)"/>
-    <wire from="(450,510)" to="(520,510)"/>
+    <wire from="(450,510)" to="(480,510)"/>
     <wire from="(4620,410)" to="(4620,720)"/>
     <wire from="(470,2030)" to="(470,2140)"/>
     <wire from="(480,1310)" to="(540,1310)"/>
@@ -2286,6 +2303,9 @@
     <wire from="(480,1720)" to="(480,1950)"/>
     <wire from="(480,1720)" to="(580,1720)"/>
     <wire from="(480,1950)" to="(590,1950)"/>
+    <wire from="(480,490)" to="(480,510)"/>
+    <wire from="(480,490)" to="(490,490)"/>
+    <wire from="(480,510)" to="(520,510)"/>
     <wire from="(50,540)" to="(240,540)"/>
     <wire from="(50,540)" to="(50,830)"/>
     <wire from="(50,830)" to="(110,830)"/>
@@ -2431,6 +2451,9 @@
     <wire from="(770,2560)" to="(840,2560)"/>
     <wire from="(770,2730)" to="(770,2740)"/>
     <wire from="(770,2730)" to="(840,2730)"/>
+    <wire from="(770,690)" to="(770,720)"/>
+    <wire from="(770,690)" to="(850,690)"/>
+    <wire from="(770,720)" to="(780,720)"/>
     <wire from="(780,2110)" to="(780,2120)"/>
     <wire from="(780,2400)" to="(780,2410)"/>
     <wire from="(780,2400)" to="(850,2400)"/>
@@ -2469,7 +2492,7 @@
     <wire from="(830,2440)" to="(850,2440)"/>
     <wire from="(830,560)" to="(830,590)"/>
     <wire from="(830,590)" to="(830,660)"/>
-    <wire from="(830,590)" to="(870,590)"/>
+    <wire from="(830,590)" to="(850,590)"/>
     <wire from="(830,660)" to="(940,660)"/>
     <wire from="(840,1490)" to="(840,1590)"/>
     <wire from="(840,1490)" to="(870,1490)"/>
@@ -2478,6 +2501,8 @@
     <wire from="(850,520)" to="(1020,520)"/>
     <wire from="(850,530)" to="(940,530)"/>
     <wire from="(850,540)" to="(930,540)"/>
+    <wire from="(850,590)" to="(850,690)"/>
+    <wire from="(850,590)" to="(870,590)"/>
     <wire from="(860,120)" to="(860,130)"/>
     <wire from="(860,120)" to="(870,120)"/>
     <wire from="(870,2990)" to="(950,2990)"/>
