@@ -1,4 +1,3 @@
-#ENG
 # EN
 # Z80 Processor Implementation
 A project aimed at replicating the functionality of the Zilog Z80 processor. The constructed circuit simulates the processor's operation and the ability to execute instructions from various instruction groups using different addressing modes in accordance with the Z80 documentation.
