@@ -1,4 +1,4 @@
-# EN
+# ENGLISH
 # Z80 Processor Implementation
 A project aimed at replicating the functionality of the Zilog Z80 processor. The constructed circuit simulates the processor's operation and the ability to execute instructions from various instruction groups using different addressing modes in accordance with the Z80 documentation.
 The complete project description can be found in the [technical report](https://github.com/SzymonSergiusz/AK2-Z80/blob/main/Raport%20techniczny%20Z80.pdf).
@@ -10,7 +10,7 @@ The processor's functionality has been implemented using [logisim-evolution](htt
 ## Implemented Instructions
 ![Instruction table](https://github.com/SzymonSergiusz/AK2-Z80/blob/main/readme-images/rozkazy.png?raw=true)
 
-# PL
+# POLSKI
 # Implementacja procesora Z80
 Projekt polegający na odwzorowaniu działania procesora Zilog Z80. Zbudowany układ symuluje działanie procesora i możliwość wykonania instrukcji z różnych grup rozkazów z wykorzystaniem różnych trybów adresowania zgodnych z dokumentacją Z80.
 Pełny opis projektu znajduje się w [raporcie technicznym](https://github.com/SzymonSergiusz/AK2-Z80/blob/main/Raport%20techniczny%20Z80.pdf)
